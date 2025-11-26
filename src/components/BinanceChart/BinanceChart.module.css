@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.priceInfo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.price {
+    margin: 0;
+    font-size: 30px;
+    color: #f5f7fb;
+}
+
+.priceFloatPart {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.delta {
+    font-size: 18px;
+}
+
+.delta[data-positive="true"] {
+    color: rgba(151, 252, 166, 0.9);
+}
+
+.delta[data-positive="false"] {
+    color: #ff5f74;
+}
+
+.chart {
+    height: 348px;
+}
+
+.chartWrapper {
+    position: relative;
+}
+
+.commentsOverlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 36px;
+    pointer-events: none;
+}
+
+.commentsOverlay > * {
+    pointer-events: auto;
+}
+
+.empty {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    text-align: center;
+}
+
+.button {
+    width: 39px;
+    height: 36px;
+    background-color: rgba(34, 34, 34, 1);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.like {
+    background-image: url("../../assets/heart.svg");
+    margin-left: auto;
+}
+
+.settings {
+    background-image: url("../../assets/settings.svg");
+}

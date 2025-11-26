@@ -1,0 +1,19 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.bottomBar {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 390px;
+}

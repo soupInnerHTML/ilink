@@ -1,0 +1,92 @@
+
+.pairRow {
+    position: relative;
+}
+
+.pairButton {
+    width: 100%;
+    border-radius: 16px;
+    padding: 0 8px;
+    height: 36px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.04);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: #f5f7fb;
+}
+
+.pairMain {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pairIcon {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background: radial-gradient(circle at 30% 30%, #ffd58a, #f7931a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.pairLabel {
+    font-size: 12px;
+}
+
+.pairLeverage {
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.pairChevron {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.pairDropdown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 6px;
+    border-radius: 16px;
+    background: #0b0d11;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 4px;
+    z-index: 2;
+}
+
+.pairDropdownItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 12px;
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.pairDropdownItem + .pairDropdownItem {
+    margin-top: 4px;
+}
+
+.pairDropdownItem[data-active="true"] {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.pairDropdownLeverage {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+}

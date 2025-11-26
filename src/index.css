@@ -1,0 +1,28 @@
+:root {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  background: rgba(27, 27, 27, 1);
+}
+
+#root {
+  max-width: 390px;
+  width: 100%;
+  margin: 12px auto 0;
+  min-height: calc(100vh - 12px);
+}
+
+.recharts-surface {
+  overflow: visible;
+}
+
+[data-rk] * {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+}

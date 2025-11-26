@@ -1,0 +1,31 @@
+.row + .row {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.row:first-of-type {
+    opacity: .2;
+}
+
+.meta {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.time {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.text {
+    margin: 4px 0 0;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.78);
+}

@@ -1,0 +1,19 @@
+.sliderDots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: rgba(46, 46, 46, 1);
+}
+
+.dot[data-active="true"] {
+    width: 24px;
+    border-radius: 32px;
+    background: rgba(236, 189, 117, 1);
+}
